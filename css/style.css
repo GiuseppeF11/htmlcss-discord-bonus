@@ -12,6 +12,8 @@
 */
 body {
     font-family: 'Noto Sans', sans-serif;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .white-h1 {
@@ -175,6 +177,7 @@ li {
 
 h2,p {
     padding-bottom: 20px;
+    color: black;
 }
 
 .regular {
@@ -272,4 +275,34 @@ hr {
 
 .row-bottom-footer .button {
     margin: 0;
+}
+
+
+/* 
+    BONUS
+*/
+
+.wave-d path{
+    width: 100%;
+    fill: #F6F6F6;
+    border-collapse: collapse;
+}
+.wave-d {
+    display: flex;
+    margin: 0;
+    display: block;
+}
+
+.dark {
+    background-color: white;
+}
+
+.wave-l path{
+    width: 100%;
+    fill: white;
+    border-collapse: collapse;
+}
+
+.light {
+    background-color: #F6F6F6 ;
 }
