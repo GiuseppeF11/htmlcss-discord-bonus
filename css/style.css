@@ -1,0 +1,275 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.white-h1 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.white-p {
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 50px;
+    min-width: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.white{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.black{
+    color: whitesmoke;
+    background-color: rgb(34, 34, 41);
+}
+
+.purple {
+    color: whitesmoke;
+    background-color:#7289DA;
+}
+
+.text-purple {
+    color:#7289DA;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.example-img {
+    height: 120%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0;
+    font-size: smaller;
+    color: whitesmoke;
+    margin: 2px 3px;
+}
+/* 
+    HEADER
+*/
+
+/* 
+  SEZIONE HEADER TOP
+*/
+.header-top {
+    background-color:#255EE9;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    background-color:#255EE9;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    text-align: left;
+    width: 20%;
+}
+
+.link {
+    text-align: center;
+    list-style-type: none;
+    width: 60%;
+}
+
+.login {
+    text-align: end;
+    width: 20%;
+}
+
+.link a {
+    padding: 0 30px;
+}
+
+.link li {
+    display: inline-block
+}
+
+/* 
+  SEZIONE HEADER BOTTOM
+*/
+
+.header-bottom {
+    min-height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.container-header-bottom {
+    padding-top: 60px;
+    width: 60%;
+    margin: 0 auto;  
+}
+
+.container-header-bottom > p {
+    padding: 30px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+/* 
+    INIZIO MAIN
+*/
+
+/* MODULO SCURO */
+
+.modulo {           
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+}
+
+.box-img {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-text {
+    width: 20%;
+    height: 300px;
+}
+
+h2,p {
+    padding-bottom: 20px;
+}
+
+.regular {
+    background-color: white;
+}
+
+/* MODULO CHIARO */
+
+.reverse {
+    background-color: #F6F6F6;
+    flex-direction: row-reverse;
+}
+
+/* 
+   BIG BOX
+*/
+.container-top-big-box {
+    padding-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.big-box {
+    background-color:#F6F6F6 ;
+    min-height: 700px;
+    text-align: center;
+}
+
+.container-bottom-big-box {
+    padding-bottom: 50px;
+}
+
+#ready {
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    padding: 30px;
+}
+
+/*
+    FOOTER
+*/
+
+.footer {
+    background-color:#23272A;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.row-top-footer {
+    width: 75%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col-1-footer-top {
+    width: calc((100% / 6) * 2);
+    height: 100%;
+    padding: 0 100px;
+}
+
+.col-1-footer-top img{
+    width: 20px;
+}
+
+.fa-brands {
+    padding-right: 20px;
+}
+
+.type-info {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.col-2-footer-top {
+    width: calc(100% /6);
+    height: 100%;
+}
+
+hr {
+    width: 75%;
+    margin: 20px auto;
+    height: 1px;
+    border-color:#7289DA;
+}
+
+.row-bottom-footer {
+    width: 75%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.row-bottom-footer .button {
+    margin: 0;
+}
